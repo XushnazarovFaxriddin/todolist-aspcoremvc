@@ -5,6 +5,6 @@ namespace ASPNETCoreMVCtodoList.ViewModels
 {
     public class TodoIndexViewModel
     {
-        public IEnumerable<Todo> todo { get; set; }
+        public IEnumerable<Todo> Todos { get; set; }
     }
 }

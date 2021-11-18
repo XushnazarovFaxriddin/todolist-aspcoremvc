@@ -1,6 +1,8 @@
 ﻿@model TodoIndexViewModel
 @{
-	ViewBag.Title = "TodoList";
+    ViewBag.Title = "TodoList";
+    var x=Model.Todos.ToList();
+    x.Add(new Todo() { Id = 7, IsCheckend = false, Name = "Nazarxon", deta = new DateTime(2015, 12, 31), Color = "fff000" });
 }
     <div class="menu">
     <div class="container">
@@ -11,26 +13,20 @@
         </div>
         <div class="text">
            <ul>
-               <div class="li" style="background-color: #137EFF;">
-                   <li>Burxon</li> 
+               @foreach (var todo in x)
+               {
+               <div class="li" style="background-color: #@todo.Color;">
+                   <li>@todo.Name</li> 
                    <div class="icons">
                        <i class="fa fa-check-circle-o " id="checkbtn"></i>
                        <i class="fa fa-times-circle-o" id="timesbtn"></i>
                        <i class="fa fa-pencil-square-o" id="pencilbtn"></i>
                    </div>
                 </div>
-
-                <div class="li" style="background-color: #FE5711;">
-                    <li>Burxon</li> 
-                    <div class="icons">
-                        <i class="fa fa-check-circle-o " id="checkbtn"></i>
-                        <i class="fa fa-times-circle-o" id="timesbtn"></i>
-                        <i class="fa fa-pencil-square-o" id="pencilbtn"></i>
-                    </div>
-                 </div>
-
+               }
+                    <!--
                  <div class="li" style="background-color: #7E03F9;">
-                    <li>Burxon</li> 
+                    <li>Sevinchbek</li> 
                     <div class="icons">
                         <i class="fa fa-check-circle-o " id="checkbtn"></i>
                         <i class="fa fa-times-circle-o" id="timesbtn"></i>
@@ -39,7 +35,7 @@
                  </div>
 
                  <div class="li" style="background-color: #FB05A4;">
-                    <li>Burxon</li> 
+                    <li>Sevinchbek</li> 
                     <div class="icons">
                         <i class="fa fa-check-circle-o " id="checkbtn"></i>
                         <i class="fa fa-times-circle-o" id="timesbtn"></i>
@@ -48,7 +44,7 @@
                  </div>
 
                  <div class="li" style="background-color:#127DFF;">
-                    <li>Burxon</li> 
+                    <li>Sevinchbek</li> 
                     <div class="icons">
                         <i class="fa fa-check-circle-o " id="checkbtn"></i>
                         <i class="fa fa-times-circle-o" id="timesbtn"></i>
@@ -57,13 +53,14 @@
                  </div>
 
                  <div class="li" style="background-color: #7E03F9;">
-                    <li>Burxon</li> 
+                    <li>Sevinchbek</li> 
                     <div class="icons">
                         <i class="fa fa-check-circle-o " id="checkbtn"></i>
                         <i class="fa fa-times-circle-o" id="timesbtn"></i>
                         <i class="fa fa-pencil-square-o" id="pencilbtn"></i>
                     </div>
                  </div>
+                        -->
            </ul>
 
         </div>

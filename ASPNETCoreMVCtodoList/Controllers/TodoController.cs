@@ -20,7 +20,7 @@ namespace ASPNETCoreMVCtodoList.Controllers
         {
             TodoIndexViewModel viewModel = new TodoIndexViewModel()
             {
-                todo = _todoRepository.GetAll()
+                Todos = _todoRepository.GetAll()
             };
             return View(viewModel);
         }
