@@ -7,16 +7,19 @@
     <div class="menu">
     <div class="container">
         <h1>What's The Plan For Today</h1>
-        <div class="input">
-            <input type="text" placeholder="ADD A TODO">
-            <button type="button">ADD</button>
-        </div>
+        <form method="post">
+            <div class="input">
+                <input type="text" placeholder="ADD A TODO">
+                <button type="submit">ADD</button>
+            </div>
+        </form>
         <div class="text">
            <ul>
                @foreach (var todo in x)
                {
+                var isCheckend=todo.IsCheckend?"text-decoration:line-through;":"";
                <div class="li" style="background-color: #@todo.Color;">
-                   <li>@todo.Name</li> 
+                   <li style=@isCheckend>@todo.Name</li> 
                    <div class="icons">
                        <i class="fa fa-check-circle-o " id="checkbtn"></i>
                        <i class="fa fa-times-circle-o" id="timesbtn"></i>

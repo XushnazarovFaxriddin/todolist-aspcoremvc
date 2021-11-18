@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KTHRlzZXa9XqwxH6U4QVtgFQ338Xphp/eubwIFVssAgaiB/TT+4+olee5CmxqBo2DrYk34OAr4jNFoKbHY419w==",
+  "dgSpecHash": "5yJ5xM73QxR7xvFNpN+aQ1N7nOnbwdLdA43qMkGujUK0qgotDunx8syEcFWqgnQiQLacgo1AsL9Pr3JjxomXPQ==",
   "success": true,
-  "projectFilePath": "E:\\.NET\\todolist-aspcoremvc\\ASPNETCoreMVCtodoList\\ASPNETCoreMVCtodoList.csproj",
+  "projectFilePath": "D:\\.NET\\aspcoremvc-todolist\\ASPNETCoreMVCtodoList\\ASPNETCoreMVCtodoList\\ASPNETCoreMVCtodoList.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

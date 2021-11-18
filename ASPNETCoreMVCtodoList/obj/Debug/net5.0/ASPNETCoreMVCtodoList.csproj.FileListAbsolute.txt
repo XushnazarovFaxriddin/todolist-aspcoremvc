@@ -71,3 +71,4 @@ E:\.NET\todolist-aspcoremvc\ASPNETCoreMVCtodoList\obj\Debug\net5.0\ref\ASPNETCor
 E:\.NET\todolist-aspcoremvc\ASPNETCoreMVCtodoList\obj\Debug\net5.0\ASPNETCoreMVCtodoList.pdb
 E:\.NET\todolist-aspcoremvc\ASPNETCoreMVCtodoList\obj\Debug\net5.0\ASPNETCoreMVCtodoList.genruntimeconfig.cache
 E:\.NET\todolist-aspcoremvc\ASPNETCoreMVCtodoList\obj\Debug\net5.0\ASPNETCoreMVCtodoList.csproj.CopyComplete
+D:\.NET\aspcoremvc-todolist\ASPNETCoreMVCtodoList\ASPNETCoreMVCtodoList\bin\Debug\net5.0\ASPNETCoreMVCtodoList.StaticWebAssets.xml
